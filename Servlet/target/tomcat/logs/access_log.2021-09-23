@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:08:54:39 -0500] "GET / HTTP/1.1" 200 52 http-bio-8080-exec-1 450
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:08:54:39 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:08:57:56 -0500] "GET /?name=Juan HTTP/1.1" 200 52 http-bio-8080-exec-5 3
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:08:58:09 -0500] "GET /?name=Juan HTTP/1.1" 200 52 http-bio-8080-exec-7 1
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:08:58:17 -0500] "GET /?id=Juan HTTP/1.1" 200 52 http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:08:58:29 -0500] "GET /?name1=Juan HTTP/1.1" 200 52 http-bio-8080-exec-9 2
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:08:58:44 -0500] "GET /?optname=Juan HTTP/1.1" 200 52 http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:08:59:24 -0500] "GET /?name=Juan HTTP/1.1" 200 52 http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:08:59:28 -0500] "GET /?name HTTP/1.1" 200 52 http-bio-8080-exec-10 0
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:08:59:33 -0500] "GET /?name=suputamadre HTTP/1.1" 200 52 http-bio-8080-exec-10 1
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:08:59:39 -0500] "GET /?name=s HTTP/1.1" 200 52 http-bio-8080-exec-10 1
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:09:01:59 -0500] "GET /helloServlet?name=Oscar HTTP/1.1" 200 21 http-bio-8080-exec-8 2
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:09:02:27 -0500] "GET /helloServlet?name=Papu HTTP/1.1" 200 20 http-bio-8080-exec-8 1
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:09:02:32 -0500] "GET /helloServlet?name=%20Papu HTTP/1.1" 200 21 http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:09:02:37 -0500] "GET /helloServlet?name=%20profe HTTP/1.1" 200 22 http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1 - - [23/Sep/2021:09:02:42 -0500] "GET /helloServlet?name=%20yes HTTP/1.1" 200 20 http-bio-8080-exec-8 0
