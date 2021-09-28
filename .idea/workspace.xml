@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64ec5ccf-9efe-4e6e-90da-a12b4f12d4fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PARTE I. - JUGANDO A SER UN CLIENTE HTTP.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/src/main/webapp/edu/eci/cvds/servlet/SampleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/target/Servlet/WEB-INF/classes/edu/eci/cvds/servlet/Classs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/target/Servlet/WEB-INF/classes/edu/eci/cvds/servlet/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/target/Servlet/WEB-INF/classes/edu/eci/cvds/servlet/model/Todo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/target/Servlet/WEB-INF/lib/gson-2.8.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/target/Servlet/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/target/classes/edu/eci/cvds/servlet/Classs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/target/classes/edu/eci/cvds/servlet/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/target/classes/edu/eci/cvds/servlet/model/Todo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet/target/tomcat/logs/access_log.2021-09-28" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/src/main/java/edu/eci/cvds/servlet/Classs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/src/main/java/edu/eci/cvds/servlet/Classs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/src/main/java/edu/eci/cvds/servlet/model/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/src/main/java/edu/eci/cvds/servlet/model/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/target/Servlet.war" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/target/Servlet.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/target/Servlet/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/target/Servlet/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/target/tomcat/conf/web.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ymn2vsS7lwqQahvrc5LLS78YVS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64ec5ccf-9efe-4e6e-90da-a12b4f12d4fc" name="Changes" comment="" />
+      <created>1632865427988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632865427988</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
