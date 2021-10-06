@@ -8,16 +8,16 @@ import java.util.Arrays;
 @ManagedBean(name = "calculadoraBean")
 public class AplicationBean {
 
-    protected ArrayList<String> datosString = new ArrayList<>();
-    protected ArrayList<Integer> datos = new ArrayList<>();
-    protected float promediofinal = 0;
-    protected float varianza = 0;
-    protected float desvestandatarfinal = 0;
-    protected float moda = 0;
+    protected ArrayList<Double> datos = new ArrayList<>();
+    protected String entrada;
+    protected double promediofinal = 0;
+    protected double varianza = 0;
+    protected double desvestandatarfinal = 0;
+    protected double moda = 0;
     protected int cantidadnum = 0;
-    protected float total = 0;
+    protected double total = 0;
 
-    public float calculateMean(ArrayList<Integer> promedio){
+    public double calculateMean(ArrayList<Double> promedio){
         cantidadnum = promedio.size();
         for(int i = 0 ; i<promedio.size(); i++){
             total += promedio.get(i);
@@ -26,35 +26,38 @@ public class AplicationBean {
         return promediofinal;
     }
 
-    public float calculateVariance(ArrayList<Integer> lisvarianza){
+    public double calculateVariance(ArrayList<Double> lisvarianza){
         cantidadnum = lisvarianza.size();
-        double media;
-        float varia = 0;
+        double media = 0;
+        double varia = 0;
 
         for(int i = 0 ; i<lisvarianza.size(); i++){
-            media = calculateMean(lisvarianza);
+            for(int j = 0 ; j<lisvarianza.size(); j++){
+                total += lisvarianza.get(j);
+            }
+            media = total/cantidadnum;
 
             double rango;
             rango = Math.pow((lisvarianza.get(i)).doubleValue() - media,2f);
-            varia = varia + (float)rango;
+            varia = varia + (double)rango;
         }
         varianza = varia / lisvarianza.size();
         return varianza;
     }
 
-    public float calculateStandardDeviation(ArrayList<Integer> desvestandar){
+    public double calculateStandardDeviation(ArrayList<Double> desvestandar){
         cantidadnum = desvestandar.size();
-        float varianza = calculateVariance(desvestandar);
-        desvestandatarfinal = (float)Math.sqrt(varianza);
+        double varianza = calculateVariance(desvestandar);
+        desvestandatarfinal = (double)Math.sqrt(varianza);
         return desvestandatarfinal;
     }
 
 
 
-    public float calculateMode(ArrayList<Integer> lismoda){
+    public double calculateMode(ArrayList<Double> lismoda){
         cantidadnum = lismoda.size();
-        int maxValue = 0;
-        int maxCount = 0;
+        double maxValue = 0;
+        double maxCount = 0;
 
         for (int i = 0; i < lismoda.size(); ++i) {
             int count = 0;
@@ -80,50 +83,55 @@ public class AplicationBean {
     }
 
     public void calbean(){
-        datos = new ArrayList<>(Arrays.asList(datosString));
+        datos = new ArrayList<>();
+        String espacios = entrada.replace(" ","");
+        String[] y = espacios.split(";");
+        for (String t : y) {
+            datos.add(Double.parseDouble(t));
+        }
         calculateMean(datos);
         calculateVariance(datos);
         calculateStandardDeviation(datos);
         calculateMode(datos);
     }
 
-    public ArrayList<Integer> getDatos() {
+    public ArrayList<Double> getDatos() {
         return datos;
     }
 
-    public void setDatos(ArrayList<Integer> datos) {
+    public void setDatos(ArrayList<Double> datos) {
         this.datos = datos;
     }
 
-    public float getPromediofinal() {
+    public double getPromediofinal() {
         return promediofinal;
     }
 
-    public void setPromediofinal(float promediofinal) {
+    public void setPromediofinal(double promediofinal) {
         this.promediofinal = promediofinal;
     }
 
-    public float getVarianza() {
+    public double getVarianza() {
         return varianza;
     }
 
-    public void setVarianza(float varianza) {
+    public void setVarianza(double varianza) {
         this.varianza = varianza;
     }
 
-    public float getDesvestandatarfinal() {
+    public double getDesvestandatarfinal() {
         return desvestandatarfinal;
     }
 
-    public void setDesvestandatarfinal(float desvestandatarfinal) {
+    public void setDesvestandatarfinal(double desvestandatarfinal) {
         this.desvestandatarfinal = desvestandatarfinal;
     }
 
-    public float getModa() {
+    public double getModa() {
         return moda;
     }
 
-    public void setModa(float moda) {
+    public void setModa(double moda) {
         this.moda = moda;
     }
 
@@ -135,19 +143,19 @@ public class AplicationBean {
         this.cantidadnum = cantidadnum;
     }
 
-    public float getTotal() {
+    public double getTotal() {
         return total;
     }
 
-    public void setTotal(float total) {
+    public void setTotal(double total) {
         this.total = total;
     }
 
-    public ArrayList<String> getDatosString() {
-        return datosString;
+    public String getEntrada() {
+        return entrada;
     }
 
-    public void setDatosString(ArrayList<String> datosString) {
-        this.datosString = datosString;
+    public void setEntrada(String entrada) {
+        this.entrada = entrada;
     }
 }
